@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: sans-serif;
+}
+b{
+    font-size: 25px;
+}
+li{
+    padding: 5px;
+}
+/* ---------navbar--------- */
+.nav-link{
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid transparent;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid blue;
+    transition: 1s;
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   
+}
+span{
+    color: blue;
+    font-weight: bold;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+}
+/* --------------about---------------- */
+#About img{
+    height: 25rem;
+    width: 25rem;
+}
+/* ---------------services------------- */
+#Services img{
+    height: 200px;
+   
+    transition: 1s;
+}
+.inner{
+    overflow: hidden;
+}
+.card img:hover{
+    transform: scale(1.5);
+    transition: 1s;
+ 
+}
+/* form------------------ */
+form{
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.2),
+                 -1px -1px 5px rgba(0,0,0,.05);
+    border-radius: 5px;
+    
+}
